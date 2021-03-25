@@ -30,7 +30,7 @@ var chosenYAxis = "healthcare";
 
 
 // (async function () {
-  d3.csv("data.csv").then(function(povData) {
+  d3.csv("/D3_data_journalism/data.csv").then(function(povData) {
     // var povData = d3.csv.("data.csv");
       console.log(povData)
         // parse data
