@@ -1,4 +1,4 @@
-// D3 Animated Scatter Plot
+//  D3 Animated Scatter Plot
 
 // Grab the width of the containing box
 var width = parseInt(d3.select("#scatter").style("width"));
@@ -127,7 +127,7 @@ yText
 // 2. Import our .csv file.
 
 // Import our CSV data with d3's .csv import method.
-d3.csv("/D3_data_journalism/data.csv").then(function (data) {
+d3.csv("data.csv").then(function (data) {
   // Visualize the data
   visualize(data);
 });
